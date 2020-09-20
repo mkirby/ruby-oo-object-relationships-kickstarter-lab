@@ -1,4 +1,4 @@
-cclass Project
+class Project
     attr_accessor :title
     def initialize(title)
         @title = title
@@ -16,4 +16,5 @@ cclass Project
         }
         backers.compact
     end
+
 end
